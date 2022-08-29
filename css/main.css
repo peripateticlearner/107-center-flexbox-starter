@@ -97,7 +97,7 @@ textarea {
 
 /*Large Background Image*/
 html {
-    background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+    background: url(../img/pawel-czerwinski-uEy4MoH-vqA-unsplash.jpg) no-repeat center center fixed;
     background-size: cover;
     /* set height to 100% - these are important for allowing content to vertically align */
     height: 100%;
@@ -132,12 +132,22 @@ body {
     line-height: 1.5em;
     border-radius: 10px;
     padding: 0px 30px;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
 }
 
 #content p span {
     font-family: 'Lora', sans-serif;
+}
+
+#personalimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    width: 320px;
+    margin: auto 7px auto 7px;
+    float: right;
 }
 
 
